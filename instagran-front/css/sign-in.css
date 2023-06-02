@@ -23,3 +23,6 @@ footer {
 	border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.avatar-content img{
+  border-radius: 50%;
+}
