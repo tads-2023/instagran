@@ -10,7 +10,7 @@ class SignUpView {
     </nav>
 
     <main class="container">
-      <form id="form-sign-in">
+      <form id="form-sign-up">
           
         <input style="display: none" type="file" id="avatar" name="avatar">
  
@@ -19,24 +19,21 @@ class SignUpView {
         </div>
       
         <div class="mb-2">
-          <input type="username" class="form-control" placeholder="Aquele apelino maroto">
+          <input id="username" type="text" class="form-control" placeholder="Aquele apelino maroto">
         </div>
 
         <div class="mb-2">
-          <input type="name" class="form-control" placeholder="O nome que mamãe deu.">
+          <input id="name" type="text" class="form-control" placeholder="O nome que mamãe deu.">
         </div>
 
         <div class="mb-2">
-          <input type="email" class="form-control" placeholder="Seu melhor email">
+          <input id="email" type="email" class="form-control" placeholder="Seu melhor email">
         </div>
         <div class="mb-2">
-          <input type="password" class="form-control" placeholder="A mais secreta senha">
-        </div>
-        <div class="text-end fw-bold mb-4">
-          <a id="esqueci-senha" href="#">Esqueci minha senha</a>
+          <input id="password" type="password" class="form-control" placeholder="A mais secreta senha">
         </div>
         <div class="mb-2">
-          <button id="login" type="button" class="btn btn-primary w-100">Log in</button>
+          <button id="sign-up" type="button" class="btn btn-primary w-100">Sign Up</button>
         </div>
       </form>
 
@@ -47,7 +44,7 @@ class SignUpView {
       </div>
 
       <p class="text-center">
-        Don’t have an account? <a href="#" id="sign-up">Sign up.</a>
+        Have an account? <a href="#" id="login">Log in.</a>
       </p>
     </main>
 

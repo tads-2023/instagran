@@ -34,7 +34,7 @@ class LoginView {
       </div>
 
       <p class="text-center">
-        Don’t have an account? <a href="#" id="sign-up">Sign up.</a>
+        Don't have an account? <a href="#" id="sign-up">Sign up.</a>
       </p>
     </main>
 
